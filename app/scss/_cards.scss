@@ -1,0 +1,35 @@
+.cards {
+  display: grid;
+  gap: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+
+  &__header {
+    &__name {
+    }
+
+    &__title {
+    }
+  }
+
+  &__content {
+  }
+
+  &__title {
+  }
+
+  &__text {
+  }
+
+  &--purple {
+  }
+
+  &--grey {
+  }
+
+  &--blueblack {
+  }
+}
