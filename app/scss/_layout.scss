@@ -1,5 +1,14 @@
+@use "breakpoints" as *;
+@use "functions";
+
 .content-wrapper {
-  // height: 100vh;
   padding: 24px;
   background-color: var(--clr-lightbluegray);
+
+  @include breakpoint("m") {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: 1fr auto 1fr;
+  }
 }
